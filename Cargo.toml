@@ -1,0 +1,8 @@
+[package]
+name = "rust-vulkan-tutorial-ash-sdl2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sdl2 = { version = "0.37.0", features = ["raw-window-handle"] }
+ash = { version = "0.38.0", features = [] }
